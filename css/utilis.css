@@ -192,6 +192,27 @@
 
 @media(max-width: 768px) {
 
+    .about li:first-child {
+        display: none;
+    }
+
+    .main-header {
+        height: 50vh!important;
+    }
+
+    #home .content h1 {
+        padding-top: 15px;
+        font-size: large;
+    }
+
+    #home .content p {
+        display: none;
+    }
+
+    #footer i {
+        display: none;
+    }
+
     .flex-items {
         flex-direction: column;
     }
