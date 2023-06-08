@@ -123,7 +123,7 @@ img {
 }
 
 .main-header {
-    background-image: url('../img/img1.jpg');
+    background-image: url('../img/img2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -133,7 +133,7 @@ img {
 }
 
 .main-header.blog {
-    background-image: url('../img/bg-2.jpeg');
+    background-image: url('../img/img2.jpg');
     height: 50vh;
 }
 
@@ -352,16 +352,17 @@ section .section-h2 {
     font-size: 30px;
  }
 
- .footer .social .fa-linkedin{
-    color: #007bb5; 
+ .footer .social .fa-instagram{
     cursor: pointer;
     transition: 0.7s;
+    color: #d6249f;
  }
 
- .footer .social .fa-linkedin:hover{
+ .footer .social .fa-instagram:hover{
     cursor: pointer;
     transition: 0.7s;
     transform: translateY(-1rem);
+    color: #fff;
  }
 
  .footer .social .fa-google{
@@ -374,18 +375,20 @@ section .section-h2 {
     cursor: pointer;
     transition: 0.7s;
     transform: translateY(-1rem);
+    color: #fff;
  }
 
- .footer .social .fa-twitter{
+ .footer .social .fa-facebook{
     color: #55ACEE; 
     cursor: pointer;
     transition: 0.7s;
  }
 
- .footer .social .fa-twitter:hover{
+ .footer .social .fa-facebook:hover{
     cursor: pointer;
     transition: 0.7s;
     transform: translateY(-1rem);
+    color: #fff;
  }
 
  .footer .social .fa-github:hover{
